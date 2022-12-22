@@ -2,9 +2,13 @@
 Python BDD library 
 I created a few scenarios per each time of testing (Positive testing, Negative Testing, Equivalenge and Boundry Limit Testing, Sanity Testing)
 
-Captcha - I managed to find a loophole to pass captcha on the page fairly easy, it is not 100% it still fails on occasion, 
-        - I am sure with more thought into the issue I will be able to cover all scenarios
-        - To be clarified if it was by design this way, or it should be automation/bot proof
+Captcha
+
+-I managed to find a loophole to pass captcha on the page fairly easy, it is not 100% it still fails on occasion
+
+- I am sure with more thought into the issue I will be able to cover all scenarios
+
+- To be clarified if it was by design this way, or it should be automation/bot proof
         
 Boundry Limit - Scenario 2 upper limit I found a Bug on the First Name field, I managed to create accounts with 31 and 56 characters First Name. 
                 HTML script says limit should be 30
